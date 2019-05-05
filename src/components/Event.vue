@@ -27,4 +27,8 @@
   };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .stationName {
+    font-weight: bold;
+  } 
+</style>

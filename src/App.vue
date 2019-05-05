@@ -70,7 +70,7 @@ export default {
               this.errors.push({wrongDirectionError: true, fatal: false, description: "Juna " + data.trainNumber + " kulkee vastakkaiseen suuntaan"})
               let t = departure;
               departure = arrival;
-              arrival = departure;
+              arrival = t;
             } 
             this.departure = departure;
             this.arrival = arrival;

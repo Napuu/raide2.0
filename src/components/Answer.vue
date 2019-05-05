@@ -1,6 +1,7 @@
 <template>
   <div v-if="doneLoading" class="boxThing">
     <Event type="departure" :event="departure"/>
+    <hr>
     <Event type="arrival" :event="arrival"/>
   </div>
 </template>
