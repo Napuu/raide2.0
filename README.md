@@ -1,29 +1,9 @@
 # raide2.0
 
-## Project setup
-```
-npm install
-```
+Simple single-page app to show Finnish trains timetables. Rewritten with Vue.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Created width [vue create](https://cli.vuejs.org/guide/creating-a-project.html)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+<img src="/trains_screenshot.png" width=350></img>
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Try live](https://napuu.xyz/trains)
