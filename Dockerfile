@@ -4,4 +4,5 @@ COPY . .
 RUN npm ci
 RUN npm run build
 RUN npm i -g serve
-CMD serve dist
+EXPOSE 4001
+CMD serve -l tcp://0.0.0.0:4001 dist
